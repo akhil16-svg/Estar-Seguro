@@ -28,6 +28,20 @@ export const metadata: Metadata = {
     siteName: "Estar Seguro Polymer",
     locale: "en_IN",
     type: "website",
+    images: [
+      {
+        url: `${basePath}/og.png`,
+        width: 1200,
+        height: 630,
+        alt: "Estar Seguro Polymer engineering components",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Estar Seguro Polymer Pvt. Ltd.",
+    description: "Engineering components. One dependable partner.",
+    images: [`${basePath}/og.png`],
   },
 };
 

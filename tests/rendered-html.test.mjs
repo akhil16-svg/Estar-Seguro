@@ -16,6 +16,7 @@ test("exports the Estar Seguro market-presence website", () => {
   assert.match(html, /5–80 tons/);
   assert.match(html, /yogesh\.p@estarseguro\.in/);
   assert.match(html, /wa\.me\/919371226224/);
+  assert.match(html, /og\.png/);
   assert.doesNotMatch(html, /Design preview|Choose a direction/);
 });
 
