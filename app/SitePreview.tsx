@@ -13,7 +13,7 @@ import {
 import { FaWhatsapp } from "react-icons/fa";
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
-const logoPath = `${basePath}/brand/estar-seguro-logo.webp`;
+const logoPath = `${basePath}/brand/estar-seguro-logo-bright.png`;
 
 const capabilities = [
   { icon: FiMaximize, title: "Reverse Engineering", note: "From an existing sample" },
@@ -80,7 +80,7 @@ export default function SitePreview() {
     <main className="website-canvas" id="top">
       <header className="site-header">
         <a href="#top" className="brand" aria-label="Estar Seguro home">
-          <img src={logoPath} alt="Estar Seguro Polymer Pvt. Ltd." width="380" height="151" />
+          <img src={logoPath} alt="Estar Seguro Polymer Pvt. Ltd." width="1611" height="640" />
         </a>
         <nav aria-label="Primary navigation">
           <a href="#capabilities">Capabilities</a>
@@ -209,7 +209,7 @@ export default function SitePreview() {
       <footer className="site-footer section-pad">
         <div className="footer-top">
           <div className="footer-brand">
-            <img src={logoPath} alt="Estar Seguro Polymer Pvt. Ltd." width="320" height="127" loading="lazy" />
+            <img src={logoPath} alt="Estar Seguro Polymer Pvt. Ltd." width="1611" height="640" loading="lazy" />
             <p>Engineering component manufacturing and sourcing solutions.</p>
           </div>
           <address>

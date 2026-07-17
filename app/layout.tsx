@@ -18,8 +18,8 @@ export const metadata: Metadata = {
   description:
     "Engineering component manufacturing and sourcing solutions across plastics, rubber, vacuum forming, foam, and sheet metal.",
   icons: {
-    icon: `${basePath}/brand/estar-seguro-logo.webp`,
-    shortcut: `${basePath}/brand/estar-seguro-logo.webp`,
+    icon: `${basePath}/brand/estar-seguro-logo-bright.png`,
+    shortcut: `${basePath}/brand/estar-seguro-logo-bright.png`,
   },
   openGraph: {
     title: "Estar Seguro Polymer Pvt. Ltd.",
