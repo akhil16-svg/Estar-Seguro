@@ -20,16 +20,15 @@ test("exports the Estar Seguro market-presence website", () => {
   assert.doesNotMatch(html, /Design preview|Choose a direction/);
 });
 
-test("uses the GitHub Pages asset prefix when configured", () => {
-  if (process.env.PAGES_BASE_PATH) {
-    assert.match(html, /\/Estar-Seguro\/_next\//);
-    assert.match(html, /\/Estar-Seguro\/products\/es10\.webp/);
-  }
+test("uses root-relative assets for the custom domain", () => {
+  assert.doesNotMatch(html, /\/Estar-Seguro\//);
+  assert.match(html, /\/products\/es10\.webp/);
+  assert.match(html, /https:\/\/estarseguro\.in\//);
 });
 
 test("ships the approved brand palette and fixed WhatsApp control", async () => {
   assert.ok(cssFile, "rendered HTML should link a stylesheet");
-  const localCssPath = cssFile.replace(/^\/Estar-Seguro/, "").replace(/^\//, "");
+  const localCssPath = cssFile.replace(/^\//, "");
   const css = await readFile(new URL(`../out/${localCssPath}`, import.meta.url), "utf8");
   assert.match(css, /#A69466/i);
   assert.match(css, /\.floating-whatsapp/);

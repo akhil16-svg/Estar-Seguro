@@ -16,7 +16,7 @@ Open `http://localhost:3000`.
 
 ```bash
 npm test
-PAGES_BASE_PATH=/Estar-Seguro npm test
+npm test
 ```
 
 The second command validates the same subpath configuration used by GitHub

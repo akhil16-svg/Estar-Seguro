@@ -5,14 +5,14 @@ export const metadata: Metadata = {
   title: "Estar Seguro Polymer | Engineering Component Manufacturing",
   description:
     "Pune-based manufacturing and sourcing partner for plastic, rubber, vacuum formed, foam, and sheet metal components.",
-  alternates: { canonical: "https://akhil16-svg.github.io/Estar-Seguro/" },
+  alternates: { canonical: "https://estarseguro.in/" },
 };
 
 const organisationData = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "Estar Seguro Polymer Pvt. Ltd.",
-  url: "https://akhil16-svg.github.io/Estar-Seguro/",
+  url: "https://estarseguro.in/",
   email: "yogesh.p@estarseguro.in",
   telephone: "+91 93712 26224",
   address: {

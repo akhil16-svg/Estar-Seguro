@@ -10,7 +10,7 @@ const inter = Inter({
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://akhil16-svg.github.io/Estar-Seguro/"),
+  metadataBase: new URL("https://estarseguro.in/"),
   title: {
     default: "Estar Seguro Polymer | Engineering Component Manufacturing",
     template: "%s | Estar Seguro Polymer",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Estar Seguro Polymer Pvt. Ltd.",
     description: "Built around your engineering requirement.",
-    url: "https://akhil16-svg.github.io/Estar-Seguro/",
+    url: "https://estarseguro.in/",
     siteName: "Estar Seguro Polymer",
     locale: "en_IN",
     type: "website",
